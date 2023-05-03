@@ -7,6 +7,7 @@ C_SOURCES := $(wildcard src/*.c)
 C_OBJECTS := $(patsubst src/%.c, build/%.o, $(C_SOURCES))
 
 all: bin/secondorder
+	./scripts/format.sh
 
 build/%.o: src/%.c
 		mkdir -p $(shell dirname $@)
