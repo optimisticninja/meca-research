@@ -1,0 +1,7 @@
+* Create ORM for ranking rules/entropy
+* Write queries to select most desirable rules
+* Write genetic algorithm/fitness function to rate highest entropy/speed results from findings
+* Fix first 32-bits of algorithm (swap sides?)
+* Read array of uint64_t and process whole files
+* Handle chopping excess
+* Endianness
